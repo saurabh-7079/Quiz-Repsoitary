@@ -8,12 +8,14 @@ public class Userdetail {
 	String email;
 	
 	public String name() {
+		System.out.println("");
 		System.out.println("Enter your name");
 		Scanner sc = new Scanner(System.in);
 		name = sc.next();
 		return name;
 	}
 	public String email() {
+		System.out.println("");
 		System.out.println("Enter your email");
 		Scanner sca = new Scanner(System.in);
 		email = sca.next();
